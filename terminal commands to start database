@@ -1,0 +1,28 @@
+$ sudo apt install postgresql-client-common
+$ sudo su -	
+root@jnukis-PORTEGE-R930:~# apt-get install postgresql postgresql-contrib
+root@jnukis-PORTEGE-R930:~# update-rc.d postgresql enable
+root@jnukis-PORTEGE-R930:~# service postgresql start
+root@jnukis-PORTEGE-R930:~# su - postgres
+postgres@jnukis-PORTEGE-R930:~$ psql																>>>Go into postgres Database
+postgres=# \q																										>>>To quit
+postgres@jnukis-PORTEGE-R930:~$ exit																>>>To eixt back to root@jnukis-PORTEGE-R930
+
+root@jnukis-PORTEGE-R930:~# exit																		>>>To eixt back to Home directory
+
+$ sudo apt install postgresql
+
+$ sudo apt install postgresql-client
+$ sudo apt install docker
+$ sudo apt install docker-compose
+$d ocker -v
+$ docker-compose -v
+$ sudo su
+root@jnukis-PORTEGE-R930:/home/jnukis/sqlalchemy# su - postgres						>>>To go into postgres@jnukis-PORTEGE-R930
+postgres@jnukis-PORTEGE-R930:~$ psql																>>>To go into postgres database
+postgres=# \password postgress																				>>>You will be pasked toenter password and to re-enter it
+postgres=# \q
+postgres@jnukis-PORTEGE-R930:~$ logout
+root@jnukis-PORTEGE-R930:/home/jnukis/sqlalchemy# exit
+
+$ docker-compose up

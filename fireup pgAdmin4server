@@ -1,0 +1,12 @@
+
+-------------------------After Installing pgAdmin4------------------------------------------
+---------FROM: https://linuxhint.com/install-pgadmin4-ubuntu/-----------------
+
+jnukis@jnukis-PORTEGE-R930:~$ cd pgAdmin4
+jnukis@jnukis-PORTEGE-R930:~/pgAdmin4$ cd pgAdmin4
+jnukis@jnukis-PORTEGE-R930:~/pgAdmin4/pgAdmin4$ source bin/activate							                                                                                #Activates Virtual enviroment 'pgAdmin4'
+
+(pgAdmin4) jnukis@jnukis-PORTEGE-R930:~/pgAdmin4/pgAdmin4$
+
+(pgAdmin4) jnukis@jnukis-PORTEGE-R930:~/pgAdmin4/pgAdmin4$ python lib/python3.6/site-packages/pgadmin4/pgAdmin4.py								#PRESS ctrl + C to cancel/exit
+
