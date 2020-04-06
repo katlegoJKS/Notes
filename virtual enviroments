@@ -1,7 +1,3 @@
 $ python -m virtualenv enviro
-$ source enviro/bin/activate
-$
-$
-$
-$
-$
+$ source enviro/bin/activate							#Activates/enter virtual enviroment called enviro
+(enviro)...$ 

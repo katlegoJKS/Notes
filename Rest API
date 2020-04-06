@@ -1,5 +1,5 @@
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://user:pass@localhost:5432/umuzi_pcs"
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://user:pass@localhost:5432/umuzi_pcs'
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
