@@ -1,0 +1,23 @@
+-----------first create virtual enviroment and make all necessary installations--------------
+$ source venviro/bin/activate
+-----------Now, create docker-compose.yaml file and docker-compose up--------------------
+(venviro)$ docker-compose up
+
+
+-----------Open another terminal and do the following:
+(venviro)$ sudo su - postfres
+postgres@jnukis-PORTEGE-R930:~$ psql
+
+------------Press ENTER and It will display the following:
+psql (12.2 (Ubuntu 12.2-2.pgdg18.04+1), server 10.12 (Ubuntu 10.12-0ubuntu0.18.04.1))
+Type "help" for help.
+
+postgres=# 
+postgres=#  \l																					#List all databases
+postgres=#  \d 																					#Lists all relations/tables
+postgres=#  \c																					#Go-into or Change into
+
+------------Write your python code and then Open another terminal and do the following:
+$ python [file.py] db init																		#run without the square brackets '[ ]' 
+$ python [file.py] db migrate																#run without the square brackets '[ ]' 
+$ python [file.py] db upgrade																#run without the square brackets '[ ]' 
