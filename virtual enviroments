@@ -1,3 +1,26 @@
 $ python -m virtualenv enviro
 $ source enviro/bin/activate							#Activates/enter virtual enviroment called enviro
-(enviro)...$ 
+(enviro)...$
+
+-------------If the above dont work try installing-----------------
+INSTALL pip
+-----------
+$ sudo apt-get install python-pip
+
+INSATLL Virtualenv
+------------------
+$ sudo pip install virtualenv
+
+NOW DO THE FOLLOWING
+---------------------
+$ mkdir ~/.virtualenvs
+
+$ sudo pip install virtualenvwrapper
+
+$ export WORKON_HOME=~/.virtualenvs
+$ nano ~/.bashrc + Enter and then paste . /usr/local/bin/virtualenvwrapper.shat the very end of the bashrc file
+
+NOW
+----
+use: 'workon' to switch between virtual enviroments
+

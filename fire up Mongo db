@@ -1,0 +1,17 @@
+-------open terminal--------
+$ sudo systemctl start mongod
+$ sudo systemctl status mongod
+$ ls				#make sure you have a docker-compose.yaml file
+$ docker-compose up
+
+-------open a newtab---------
+$ docker container ls		#Copy Mongo's container ID
+$ docker exec -it [container ID] mongo -u root
+>
+>
+>
+> db				#shows which database you are currently on
+> show dbs			#shows list of databases
+> use [database_name]		#switch to database you want
+> show collections		# shows collections/tables
+
