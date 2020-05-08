@@ -1,0 +1,11 @@
+--------make virtual enviroment---------
+$ mkvirtualenv wrangling
+
+--------Install pandas and jupyter------------
+(wrangling)$ pip install pandas
+(wrangling)$ pip install jupyterlab
+(wrangling)$ pip install notebook
+
+----------To open notebook-----------------
+(wrangling)$ jupyter notebook
+
