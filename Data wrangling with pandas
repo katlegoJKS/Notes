@@ -1,0 +1,12 @@
+----------Installations-------------------
+$ mkvirtualenv wrangling
+(wrangling)$
+(wrangling)$ pip install jupyterlab
+(wrangling)$ pip install notebook
+(wrangling)$ pip install pandas
+(wrangling)$ pip install numpy
+
+----------Run/Create a jupyter notebook---------
+(wrangling)$ jupyter notebook
+
+-----See Data_wrangling Repo for more...
