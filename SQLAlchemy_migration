@@ -5,8 +5,14 @@ $ source venviro/bin/activate
 
 
 -----------Open another terminal and do the following:
-(venviro)$ sudo su - postfres
+(venviro)$ sudo su - postgres
 postgres@jnukis-PORTEGE-R930:~$ psql
+
+-----------Or:
+(venviro)$ docker container ls
+(venviro)$ docker exec -it [your container ID] bash
+(venviro)$ psql -h 127.0.0.1 -U user -W db
+
 
 ------------Press ENTER and It will display the following:
 psql (12.2 (Ubuntu 12.2-2.pgdg18.04+1), server 10.12 (Ubuntu 10.12-0ubuntu0.18.04.1))

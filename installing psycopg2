@@ -1,0 +1,8 @@
+---------------Installing psycopg2---------------------------
+$ mkvirtualenv psycop
+(psycop)$ pip install psycopg2
+
+---------------if you get an error---------------------------
+---Do the following steps, b4 repeating the above command-----
+(psycop)$ sudo apt update
+(psycop)$ sudo apt install libpq-dev python-dev
