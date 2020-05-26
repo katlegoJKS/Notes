@@ -14,4 +14,11 @@ $ docker exec -it [container ID] mongo -u root
 > show dbs			#shows list of databases
 > use [database_name]		#switch to database you want
 > show collections		# shows collections/tables
+> db.createCollection('tableName')
+> db.tableName.insert({
+... name: "JKS",
+... surname: "Malatjie"}
+... )
+>
+
 
