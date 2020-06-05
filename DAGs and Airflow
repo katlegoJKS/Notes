@@ -1,0 +1,8 @@
+-------------Start by exporting all recquired environmental variables------
+~$ export AIRFLOW_HOME=$(pwd)
+~$ export MONG_DB='localhost'
+
+-------------Rub server  and schedular on two seperate terminals------------
+~$ workon Airflow-envioronment
+~(Airflow-envioronment)$ airflow webserver -p 8080
+~(Airflow-envioronment)$ airflow scheduler
